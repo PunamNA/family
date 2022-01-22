@@ -1,3 +1,31 @@
+body{
+    font-family:sans-serif;
+    font-size: large;
+    margin: 0;
+}
 h1{
-    color:coral
+    color:rgba(255, 200, 80, 0.815)
+}
+section{
+    display:flex;
+}
+.family{
+    background-image: url("./exp-bg.png");
+    background-repeat:no-repeat;
+    width: 80%;
+
+}
+.one{
+    width: 60%;
+    padding: 3%;
+}
+.one img{
+    width: 80%;
+}
+.button{
+    text-decoration: none;
+    background-color: rgba(189, 147, 9, 0.986);
+    padding: 10px 12px;
+    font-weight: bold;
+    border-radius: 5px;
 }
